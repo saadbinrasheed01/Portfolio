@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saad Bin Rasheed | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header>
+    <div class="container">
+      <h1>Saad Bin Rasheed</h1>
+      <p>Data Scientist & Data Analyst</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hi, I'm Saad Bin Rasheed, a Data Scientist and Analyst from Kohat, currently in Peshawar. I'm pursuing my Bachelor's in Data Science at UET Peshawar. I enjoy building projects that make working with data easier and insightful.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Data Science</li>
+      <li>Data Analysis</li>
+      <li>Data Visualization</li>
+      <li>Machine Learning & AI</li>
+      <li>Database Management</li>
+    </ul>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <p><strong>UET Peshawar, Pakistan</strong><br/>Bachelor in Data Science</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" onclick="openModal('modal1')">
+        <h3>Weather Forecast App</h3>
+        <img src="images/weather.png" alt="Weather App" />
+        <p>7-Day weather forecast using API & data visualization</p>
+      </div>
+
+      <div class="project-card" onclick="openModal('modal2')">
+        <h3>Stock Analyzer</h3>
+        <img src="images/stocks.png" alt="Stock App" />
+        <p>Analyzed real-time data using Python and charts</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h3>Weather Forecast App</h3>
+      <p>This project displays a 7-day weather forecast using a weather API. It includes charts, city selection, and responsive design for mobile and desktop.</p>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <h3>Stock Analyzer</h3>
+      <p>A tool to analyze stock performance using yFinance, BeautifulSoup, and matplotlib for data visualization.</p>
+    </div>
+  </div>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li>Email: saadra299@gmail.com</li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/saad-bin-rasheed-0645b0214" target="_blank">Saad Bin Rasheed</a></li>
+      <li>GitHub: <a href="saadbinrasheed01" target="_blank">saadbinrasheed01</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Saad Bin Rasheed. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
